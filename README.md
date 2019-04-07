@@ -1,8 +1,8 @@
 # Solving Javascript Challanges
 
-## Goal and Resources
-
 * Practicing how to solve coding challenges to improve my JavaScript skills and logic.
+
+## Used Resources
 
 * Solved challenges are from [edabit](https://edabit.com/challenges), [HackeRank](https://www.hackerrank.com/), [w3resource](https://www.w3resource.com/javascript-exercises/)
 
