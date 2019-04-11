@@ -1,4 +1,4 @@
-// Challenge from HackerRank, changed a little bit
+
 // Print the Elements of a Linked List
 class printLinkedList {
     constructor(value) {
