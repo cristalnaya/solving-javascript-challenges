@@ -15,3 +15,9 @@ function sortEmails() {
 
 }
 console.log(sortEmails());
+// Print:
+// julia
+// julia
+// riya
+// samantha
+// tanya
