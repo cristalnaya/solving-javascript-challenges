@@ -25,3 +25,5 @@ function maxChar(str){
   return maxChar;  
   }
   console.log(maxChar('Hello World!!!!'));
+
+  module.exports = maxChar;
