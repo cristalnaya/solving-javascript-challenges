@@ -4,7 +4,7 @@ test("maxChar function to be defined", () => {
     expect(hashPlusCount).toBeDefined();
 });
 
-test("recieve sum of # and +", () => {
+test("recieve length of # and +", () => {
     expect(hashPlusCount("")).toEqual([0, 0]);
     expect(hashPlusCount("###+")).toEqual([3, 1]);
     expect(hashPlusCount("##+++#")).toEqual([3, 3]);
