@@ -47,3 +47,24 @@ function concat(arr1, arr2) {
     return arr[arr.length - 1] + difference;
   }
   console.log(nextElement([3, 5, 7, 9])); // 11
+
+  function smallerNum(n1, n2) {
+    let num1 = parseInt(n1)
+    let num2 = parseInt(n2)
+    return Math.min(num1, num2).toString();
+  }
+  console.log(smallerNum("21", "44")); //21
+
+  
+  function additiveInverse(arr) {
+    return arr.map(num => num > 0 ? -Math.abs(num) : Math.abs(num));
+  }
+  console.log(additiveInverse([5, -7, 8, 3])); //[-5, 7, -8, -3]
+  
+
+  function isIdentical(s) {
+    return s.split('').every((char) => char === s[0]);
+  
+  }
+  console.log(isIdentical("aaaaaa"));// true
+  console.log(isIdentical("aabaaa"));// false
