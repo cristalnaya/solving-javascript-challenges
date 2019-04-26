@@ -68,3 +68,9 @@ function concat(arr1, arr2) {
   }
   console.log(isIdentical("aaaaaa"));// true
   console.log(isIdentical("aabaaa"));// false
+
+  function smallerNum(n1, n2) {
+    return parseInt(n1) <= parseInt(n2) ? n1 : n2;
+  }
+  console.log(smallerNum("21", "44"));
+  console.log(smallerNum("21", "4"));
