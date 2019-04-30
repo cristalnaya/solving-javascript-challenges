@@ -85,3 +85,4 @@ function toArray(str) {
 console.log(toArray("watermelon, raspberry, orange"));
 console.log(toArray("x1, x2, x3, x4, x5"));
 console.log(toArray(""));
+
